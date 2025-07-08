@@ -6,7 +6,7 @@ Welcome to the official landing page for **Madhu & Cocoa**, a luxurious chocolat
 
 ## 🌍 Live Preview
 
-> 🔗 [https://madhuandcocoa.com](https://madhuandcocoa.com) _(Replace with your domain)_
+> 🔗 https://indian-california-chocolataire.vercel.app/
 
 ---
 
