@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Madhu & Cocoa - Indian California-style Chocolaterie</title>
+		<!-- Bootstrap 5.3 CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Bootstrap Icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+		<!-- Font Awesome 6 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<!-- Header Section -->
+		<header class="header fixed-top">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<!-- Logo & Brand Name -->
+				<a class="navbar-brand" href="#">
+					<div class="d-flex align-items-center">
+						<img src="images/logo.jpeg" alt="Madhu & Cocoa Logo" class="logo-img me-2">
+						<span class="brand-name">Madhu & Cocoa</span>
+					</div>
+				</a>
+				<!-- Mobile Toggle Button -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+					aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- Navigation Menu -->
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav ms-auto mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#home"><i class="bi bi-house-door me-1 d-lg-none"></i> Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about"><i class="bi bi-info-circle me-1 d-lg-none"></i> About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#chocolate"><i class="bi bi-cup-hot me-1 d-lg-none"></i> Our Chocolate
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#process"><i class="bi bi-gear me-1 d-lg-none"></i> Our Process</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#blog"><i class="bi bi-book me-1 d-lg-none"></i> Chocolate Stories</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact"><i class="bi bi-envelope me-1 d-lg-none"></i> Contact</a>
+						</li>
+					</ul>
+					<!-- CTA Buttons -->
+					<div class="d-flex ms-lg-3">
+						<a href="#order" class="btn btn-primary me-2 order-btn">
+						<i class="bi bi-cart-fill me-1"></i> Order Now
+						</a>
+						<a href="#tour" class="btn btn-outline-light tour-btn">
+						<i class="bi bi-calendar-event me-1"></i> Book a Tour
+						</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Hero Section -->
+		<section class="hero-section" id="home">
+			<div class="hero-overlay"></div>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-12 mx-auto text-center">
+						<!-- Headline & Tagline -->
+						<h1 class="hero-headline">
+							<span class="highlight-gold">Spice & Sunshine</span> in Every Bite
+						</h1>
+						<p class="hero-tagline">
+							Handcrafted in California, Infused with Indian Soul. Small-batch chocolates where cardamom meets coastal breeze.
+						</p>
+						<!-- CTAs -->
+						<div class="hero-cta mt-4">
+							<a href="#shop" class="btn btn-primary btn-lg me-3">
+							<i class="bi bi-box-seam me-2"></i>Shop Collection
+							</a>
+							<a href="#story" class="btn btn-outline-light btn-lg">
+							<i class="bi bi-book me-2"></i>Explore Our Story
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Decorative Elements (for flair) -->
+			<div class="hero-deco spice-1">
+				<svg width="60" height="20" viewBox="0 0 60 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-deco spice-1">
+					<path d="M2 10C2 10 10 2 20 10C30 18 40 2 50 10C60 18 58 10 58 10" stroke="#A16207" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M5 12C5 12 12 5 22 12C32 19 42 5 52 12" stroke="#E6A756" stroke-width="1.5" stroke-linecap="round"/>
+				</svg>
+			</div>
+			<div class="hero-deco cocoa-bean">
+				<svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-deco cocoa-bean">
+					<path d="M20 2C25 2 35 5 38 15C38 25 30 28 20 28C10 28 2 25 2 15C2 5 15 2 20 2Z" fill="#3C1E0A"/>
+					<path d="M20 3C24 3 34 6 37 15C37 24 30 27 20 27C10 27 3 24 3 15C3 6 16 3 20 3Z" stroke="#E6A756" stroke-width="0.5"/>
+					<path d="M12 10C12 10 14 8 18 10C22 12 25 8 28 10" stroke="#E6A756" stroke-width="0.5" stroke-linecap="round"/>
+					<path d="M10 15C10 15 13 13 17 15C21 17 24 13 27 15" stroke="#E6A756" stroke-width="0.5" stroke-linecap="round"/>
+					<path d="M12 20C12 20 14 18 18 20C22 22 25 18 28 20" stroke="#E6A756" stroke-width="0.5" stroke-linecap="round"/>
+				</svg>
+			</div>
+		</section>
+		<!-- About Us Section -->
+		<section class="about-section py-5" id="about">
+			<div class="container">
+				<!-- Section Header -->
+				<div class="row mb-5">
+					<div class="col-lg-8 mx-auto text-center">
+						<span class="section-subtitle">Our Story</span>
+						<h2 class="section-title">
+							From <span class="text-spice">Spice Bazaars</span> to 
+							<span class="text-sunshine">Sunshine Coast</span>
+						</h2>
+						<p class="section-tagline">
+							Where generations of Indian chocolate-making tradition meet California’s 
+							bold, innovative spirit.
+						</p>
+					</div>
+				</div>
+				<!-- Founder Story & Philosophy -->
+				<div class="row align-items-center">
+					<!-- Founder Photo -->
+					<div class="col-lg-4 mb-4 mb-lg-0">
+						<div class="founder-img-container">
+							<img src="images/about-image.jpeg" alt="Madhu & Cocoa founders" class="founder-img rounded">
+							<div class="founder-img-deco">
+								<img src="images/about-image-2.jpeg" alt="Cardamom pod" width="40">
+							</div>
+						</div>
+					</div>
+					<!-- Story Content -->
+					<div class="col-lg-8">
+						<div class="story-content">
+							<h3 class="story-headline">
+								A Love Letter to Two Homelands
+							</h3>
+							<p class="story-text">
+								Founded by siblings Priya and Raj Patel, Madhu & Cocoa bridges their 
+								grandmother’s <strong>70-year-old Indian spice-infused chocolate recipes</strong> 
+								with <strong>California’s farm-fresh ingredients</strong>. After years in Mumbai’s bustling 
+								markets, they brought their craft to San Francisco in 2015, 
+								reimagining tradition with a sun-kissed twist.
+							</p>
+							<p class="story-text">
+								With a focus on <strong>organic ingredients</strong> and <strong>zero-waste processes</strong>, 
+								Madhu & Cocoa is a <strong>family-owned business</strong> dedicated to preserving 
+								the rich heritage of Indian spices and the vibrant culture of California.
+							</p>
+							<!-- Fusion Philosophy -->
+							<div class="fusion-philosophy mt-4">
+								<h4 class="fusion-title">
+									<i class="bi bi-heart-fill text-danger me-2"></i>
+									Our Fusion Promise
+								</h4>
+								<div class="row">
+									<div class="col-md-6">
+										<ul class="fusion-list">
+											<li><span class="fusion-icon">🌿</span> Cardamom + California almonds</li>
+											<li><span class="fusion-icon">🔥</span> Chili + Dark cocoa beans</li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="fusion-list">
+											<li><span class="fusion-icon">💛</span> Saffron + Orange blossom honey</li>
+											<li><span class="fusion-icon">🌊</span> Sea salt + Coconut jaggery</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- Sustainability -->
+							<div class="sustainability mt-4">
+								<h4 class="sustainability-title">
+									<i class="bi bi-leaf-fill me-2"></i>
+									Ethical to the Core
+								</h4>
+								<p>
+									We partner with <strong>women-owned cocoa farms in Kerala</strong> and 
+									<strong>organic California nut growers</strong>. Our packaging is 
+									100% compostable, because sweet treats shouldn’t cost the earth.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Timeline -->
+				<div class="row mt-5">
+					<div class="col-12">
+						<h3 class="timeline-title text-center mb-4">Our Journey</h3>
+						<div class="timeline">
+							<div class="timeline-item">
+								<div class="timeline-year">2015</div>
+								<div class="timeline-content">
+									<h4>First Kitchen in SF</h4>
+									<p>Started selling at Ferry Building Farmers’ Market</p>
+								</div>
+							</div>
+							<div class="timeline-item">
+								<div class="timeline-year">2018</div>
+								<div class="timeline-content">
+									<h4>Spice-Infused Line</h4>
+									<p>Launched bestselling Cardamom Crunch bars</p>
+								</div>
+							</div>
+							<div class="timeline-item">
+								<div class="timeline-year">2022</div>
+								<div class="timeline-content">
+									<h4>Solar-Powered Factory</h4>
+									<p>Opened Oakland facility with zero-waste processes</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Chocolate Collection Section -->
+		<section class="chocolate-section py-5" id="chocolate">
+			<div class="container">
+				<!-- Section Header -->
+				<div class="row mb-5">
+					<div class="col-lg-8 mx-auto text-center">
+						<span class="section-subtitle">Indulge</span>
+						<h2 class="section-title">
+							<span class="text-spice">Spice-Kissed</span>, 
+							<span class="text-sunshine">Sunshine-Wrapped</span>
+						</h2>
+						<p class="section-tagline">
+							Each bar is a journey from Kerala’s spice gardens to California’s orchards.
+						</p>
+					</div>
+				</div>
+				<!-- Chocolate Grid -->
+				<div class="row g-4" id="chocolate-grid">
+					<!-- Card 1 -->
+					<div class="col-md-6 col-lg-4" data-category="spiced">
+						<div class="chocolate-card">
+							<div class="card-image">
+								<img src="images/chocolate-1.jpeg" alt="Cardamom Crunch Chocolate" class="img-fluid">
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">Cardamom Crunch</h3>
+								<p class="card-ingredients">
+									<i class="bi bi-dot"></i> 72% Dark Chocolate<br>
+									<i class="bi bi-dot"></i> Kerala Cardamom<br>
+									<i class="bi bi-dot"></i> Almond Brittle
+								</p>
+								<div class="card-actions">
+									<button class="btn btn-quickview">
+									<i class="bi bi-eye-fill me-1"></i> Quick View
+									</button>
+									<button class="btn btn-buynow">
+									<i class="bi bi-cart-fill me-1"></i> Buy Now
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card 2 -->
+					<div class="col-md-6 col-lg-4" data-category="vegan spiced">
+						<div class="chocolate-card">
+							<div class="card-image">
+								<img src="images/chocolate-2.jpeg" alt="Saffron Bliss Chocolate" class="img-fluid">
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">Saffron Bliss</h3>
+								<p class="card-ingredients">
+									<i class="bi bi-dot"></i> Oat Milk Chocolate<br>
+									<i class="bi bi-dot"></i> Kashmiri Saffron<br>
+									<i class="bi bi-dot"></i> Orange Zest
+								</p>
+								<div class="card-actions">
+									<button class="btn btn-quickview">
+									<i class="bi bi-eye-fill me-1"></i> Quick View
+									</button>
+									<button class="btn btn-buynow">
+									<i class="bi bi-cart-fill me-1"></i> Buy Now
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card 3 -->
+					<div class="col-md-6 col-lg-4" data-category="sugarfree">
+						<div class="chocolate-card">
+							<div class="card-image">
+								<img src="images/chocolate-3.jpeg" alt="Coconut Jaggery Chocolate" class="img-fluid">
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">Coconut Jaggery</h3>
+								<p class="card-ingredients">
+									<i class="bi bi-dot"></i> 65% Dark Chocolate<br>
+									<i class="bi bi-dot"></i> Organic Coconut<br>
+									<i class="bi bi-dot"></i> Palm Jaggery
+								</p>
+								<div class="card-actions">
+									<button class="btn btn-quickview">
+									<i class="bi bi-eye-fill me-1"></i> Quick View
+									</button>
+									<button class="btn btn-buynow">
+									<i class="bi bi-cart-fill me-1"></i> Buy Now
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card 4: Chili Sunset -->
+					<div class="col-md-6 col-lg-4" data-category="spiced vegan">
+						<div class="chocolate-card">
+							<div class="card-image">
+								<img src="images/chocolate-4.jpeg" alt="Chili Sunset Chocolate" class="img-fluid">
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">Chili Sunset</h3>
+								<p class="card-ingredients">
+									<i class="bi bi-dot"></i> 70% Dark Chocolate<br>
+									<i class="bi bi-dot"></i> Kashmiri Chili<br>
+									<i class="bi bi-dot"></i> California Orange Oil
+								</p>
+								<div class="card-actions">
+									<button class="btn btn-quickview">
+									<i class="bi bi-eye-fill me-1"></i> Quick View
+									</button>
+									<button class="btn btn-buynow">
+									<i class="bi bi-cart-fill me-1"></i> Buy Now
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card 5: Golden Gate Crunch -->
+					<div class="col-md-6 col-lg-4" data-category="nutfree">
+						<div class="chocolate-card">
+							<div class="card-image">
+								<img src="images/chocolate-5.jpeg" alt="Golden Gate Crunch Chocolate" class="img-fluid">
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">Golden Gate Crunch</h3>
+								<p class="card-ingredients">
+									<i class="bi bi-dot"></i> 55% Milk Chocolate<br>
+									<i class="bi bi-dot"></i> Toasted Rice<br>
+									<i class="bi bi-dot"></i> Himalayan Pink Salt
+								</p>
+								<div class="card-actions">
+									<button class="btn btn-quickview">
+									<i class="bi bi-eye-fill me-1"></i> Quick View
+									</button>
+									<button class="btn btn-buynow">
+									<i class="bi bi-cart-fill me-1"></i> Buy Now
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card 6: Saffron Almond Bliss -->
+					<div class="col-md-6 col-lg-4" data-category="spiced">
+						<div class="chocolate-card">
+							<div class="card-image">
+								<img src="images/chocolate-6.jpeg" alt="Saffron Almond Bliss Chocolate" class="img-fluid">
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">Saffron Almond Bliss</h3>
+								<p class="card-ingredients">
+									<i class="bi bi-dot"></i> White Chocolate<br>
+									<i class="bi bi-dot"></i> Kashmiri Saffron<br>
+									<i class="bi bi-dot"></i> Central Valley Almonds
+								</p>
+								<div class="card-actions">
+									<button class="btn btn-quickview">
+									<i class="bi bi-eye-fill me-1"></i> Quick View
+									</button>
+									<button class="btn btn-buynow">
+									<i class="bi bi-cart-fill me-1"></i> Buy Now
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- View All CTA -->
+				<div class="row mt-4">
+					<div class="col-12 text-center">
+						<a href="#" class="btn btn-viewall">
+						Explore All Flavors <i class="bi bi-arrow-right ms-2"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Process Section -->
+		<section class="process-section py-5" id="process">
+			<div class="container">
+				<!-- Section Header -->
+				<div class="row mb-5">
+					<div class="col-lg-12 mx-auto text-center">
+						<span class="section-subtitle">From Bean to Bar</span>
+						<h2 class="section-title">
+							<span class="text-spice">Spiced with Tradition</span>, 
+							<span class="text-sunshine">Tempered with Innovation</span>
+						</h2>
+						<p class="section-tagline">
+							Our small-batch process honors Indian spice wisdom while embracing California’s sustainable ethos.
+						</p>
+					</div>
+				</div>
+				<!-- Process Steps (Infographic) -->
+				<div class="row g-4">
+					<!-- Step 1: Sourcing -->
+					<div class="col-md-6 col-lg-3">
+						<div class="process-card">
+							<div class="process-icon">
+								<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M30 50C41 50 50 41 50 30C50 19 41 10 30 10C19 10 10 19 10 30C10 41 19 50 30 50Z" fill="#F8F1E5" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M25 35L20 25L30 20L40 25L35 35L30 37L25 35Z" fill="#5F8D4E" stroke="#3C1E0A" stroke-width="1.5"/>
+									<path d="M25 22C25 22 27 18 30 18C33 18 35 22 35 22" stroke="#E6A756" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<h3 class="process-step">1. Ethical Sourcing</h3>
+							<p class="process-desc">
+								Directly traded cacao from Kerala + spices from Indian farmers’ cooperatives.
+							</p>
+							<div class="process-hover">
+								<img src="images/process-1.jpeg" alt="Kerala Cacao Farm" class="img-fluid rounded">
+							</div>
+						</div>
+					</div>
+					<!-- Step 2: Roasting -->
+					<div class="col-md-6 col-lg-3">
+						<div class="process-card">
+							<div class="process-icon">
+								<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15 25H45V45H15V25Z" fill="#F8F1E5" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M15 25L30 15L45 25" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M25 30C25 30 26 32 28 32C30 32 31 30 31 30" stroke="#A16207" stroke-width="2" stroke-linecap="round"/>
+									<path d="M35 35C35 35 36 37 38 37C40 37 41 35 41 35" stroke="#A16207" stroke-width="2" stroke-linecap="round"/>
+									<circle cx="22" cy="38" r="2" fill="#E6A756"/>
+									<circle cx="38" cy="38" r="2" fill="#E6A756"/>
+								</svg>
+							</div>
+							<h3 class="process-step">2. Slow Roasting</h3>
+							<p class="process-desc">
+								Spices and beans roasted separately to unlock layered flavors.
+							</p>
+							<div class="process-hover">
+								<img src="images/process-2.jpeg" alt="Roasting Room" class="img-fluid rounded">
+							</div>
+						</div>
+					</div>
+					<!-- Step 3: Tempering -->
+					<div class="col-md-6 col-lg-3">
+						<div class="process-card">
+							<div class="process-icon">
+								<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15 40L45 40L45 50H15V40Z" fill="#F8F1E5" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M20 20V40" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M40 20V40" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M20 20L30 10L40 20" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M25 30L35 30" stroke="#A16207" stroke-width="3" stroke-linecap="round"/>
+								</svg>
+							</div>
+							<h3 class="process-step">3. Hand Tempering</h3>
+							<p class="process-desc">
+								Artisanal marble slab tempering for the perfect snap and shine.
+							</p>
+							<div class="process-hover">
+								<img src="images/process-3.jpeg" alt="Hand Tempering" class="img-fluid rounded">
+							</div>
+						</div>
+					</div>
+					<!-- Step 4: Wrapping -->
+					<div class="col-md-6 col-lg-3">
+						<div class="process-card">
+							<div class="process-icon">
+								<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15 15H45V45H15V15Z" fill="#F8F1E5" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M15 15L30 25L45 15" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M15 45L30 35L45 45" stroke="#3C1E0A" stroke-width="2"/>
+									<path d="M25 25L35 25L30 35L25 25Z" fill="#5F8D4E" stroke="#3C1E0A" stroke-width="1.5"/>
+								</svg>
+							</div>
+							<h3 class="process-step">4. Eco-Wrapping</h3>
+							<p class="process-desc">
+								Hand-wrapped in plant-based foil with spice-inspired designs.
+							</p>
+							<div class="process-hover">
+								<img src="images/process-4.jpeg" alt="Wrapping Station" class="img-fluid rounded">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Factory Highlights -->
+				<div class="row mt-5 align-items-center">
+					<div class="col-lg-6 mb-4 mb-lg-0">
+						<div class="facility-img-container">
+							<img src="images/facility.jpeg" alt="Solar-Powered Factory" class="facility-img rounded">
+							<div class="facility-badge">
+								<i class="bi bi-sun-fill"></i> Solar-Powered
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<h3 class="facility-title">Our Oakland Facility</h3>
+						<p class="facility-desc">
+							Our factory is powered by solar panels and runs on renewable energy. We have a team of dedicated professionals to ensure the safety and quality of our products.
+							We have a team of dedicated professionals to ensure the safety and quality of our products.
+							We have a team of dedicated professionals to ensure the safety and quality of our products.
+						</p>
+						<ul class="facility-features">
+							<li><i class="bi bi-check-circle-fill"></i> Zero-waste production</li>
+							<li><i class="bi bi-check-circle-fill"></i> Glass-walled kitchen for transparency</li>
+							<li><i class="bi bi-check-circle-fill"></i> Women-led production team</li>
+							<li><i class="bi bi-check-circle-fill"></i> Spice infusion room with Ayurvedic principles</li>
+						</ul>
+					</div>
+				</div>
+				<!-- CTAs -->
+				<div class="row mt-5">
+					<div class="col-12 text-center">
+						<a href="#process-video" class="btn btn-primary btn-lg me-3">
+						<i class="bi bi-play-circle-fill me-2"></i> See How We Make It
+						</a>
+						<a href="#tours" class="btn btn-outline-dark btn-lg">
+						<i class="bi bi-calendar-event me-2"></i> Book a Factory Tour
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Testimonials Section -->
+		<section class="testimonials-section py-5" id="testimonials">
+			<div class="container">
+				<!-- Section Header -->
+				<div class="row mb-5">
+					<div class="col-lg-8 mx-auto text-center">
+						<span class="section-subtitle">Sweet Words</span>
+						<h2 class="section-title">
+							<span class="text-spice">Spiced with Love</span>, 
+							<span class="text-sunshine">Wrapped in Joy</span>
+						</h2>
+						<p class="section-tagline">
+							What chocolate lovers from Mumbai to Monterey are saying...
+						</p>
+					</div>
+				</div>
+				<!-- Testimonial Slider -->
+				<div class="row">
+					<div class="col-12">
+						<div class="testimonial-slider swiper">
+							<div class="swiper-wrapper">
+								<div class="row">
+									<div class="col-md-4">
+										<!-- Testimonial 1 -->
+										<div class="swiper-slide">
+											<div class="testimonial-card">
+												<div class="testimonial-rating">
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+												</div>
+												<p class="testimonial-quote">
+													"The Cardamom Crunch took me back to my grandmother's kitchen in Chennai, but with a California twist. Pure magic!"
+												</p>
+												<div class="testimonial-author">
+													<img src="images/client-1.jpeg" alt="Priya K." class="author-img">
+													<div class="author-info">
+														<h4>Priya K.</h4>
+														<p>San Francisco, CA</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- Testimonial 2 -->
+										<div class="swiper-slide">
+											<div class="testimonial-card">
+												<div class="testimonial-rating">
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-half"></i>
+												</div>
+												<p class="testimonial-quote">
+													"As a vegan, Saffron Bliss is my go-to gift. That orange-zest finish? Chef's kiss!"
+												</p>
+												<div class="testimonial-author">
+													<img src="images/client-2.jpeg" alt="Michael T." class="author-img">
+													<div class="author-info">
+														<h4>Michael T.</h4>
+														<p>Berkeley, CA</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<!-- Testimonial 3 -->
+										<div class="swiper-slide">
+											<div class="testimonial-card">
+												<div class="testimonial-rating">
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+													<i class="bi bi-star-fill"></i>
+												</div>
+												<p class="testimonial-quote">
+													"Ordered the Coconut Jaggery to Delhi - arrived perfectly! Tastes like Goa beaches and childhood memories."
+												</p>
+												<div class="testimonial-author">
+													<img src="images/client-3.jpeg" alt="Ameeta R." class="author-img">
+													<div class="author-info">
+														<h4>Ameeta R.</h4>
+														<p>New Delhi, India</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slider Controls -->
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Shop Section -->
+		<section class="shop-section py-5" id="shop">
+			<div class="container">
+				<!-- Section Header -->
+				<div class="row mb-5">
+					<div class="col-lg-8 mx-auto text-center">
+						<span class="section-subtitle">Take Home the Magic</span>
+						<h2 class="section-title">
+							<span class="text-spice">Handcrafted</span>, 
+							<span class="text-sunshine">Heart-Wrapped</span>
+						</h2>
+						<p class="section-tagline">
+							Every purchase supports sustainable farming and women-led cooperatives.
+						</p>
+					</div>
+				</div>
+				<!-- Shop Features -->
+				<div class="row mt-5 g-4">
+					<div class="col-md-4">
+						<div class="feature-card text-center">
+							<i class="bi bi-truck feature-icon"></i>
+							<h4>Free Shipping</h4>
+							<p>On orders over $50 in the US</p>
+							<a href="#shipping" class="feature-link">See details →</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="feature-card text-center">
+							<i class="bi bi-arrow-repeat feature-icon"></i>
+							<h4>Spice Club</h4>
+							<p>Subscribe & save 15% monthly</p>
+							<a href="#subscribe" class="feature-link">Join now →</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="feature-card text-center">
+							<i class="bi bi-gift feature-icon"></i>
+							<h4>Gift Wrapping</h4>
+							<p>Complimentary with handwritten notes</p>
+							<a href="#gifts" class="feature-link">Learn more →</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Blog Section -->
+		<section class="blog-section py-5" id="blog">
+			<div class="container">
+				<!-- Section Header -->
+				<div class="row mb-5">
+					<div class="col-lg-8 mx-auto text-center">
+						<span class="section-subtitle">Chocolate Stories</span>
+						<h2 class="section-title">
+							<span class="text-spice">From Bean to Blog</span>, 
+							<span class="text-sunshine">Stories Worth Savoring</span>
+						</h2>
+						<p class="section-tagline">
+							Dive deeper into the world of Indian-Californian chocolate craftsmanship.
+						</p>
+					</div>
+				</div>
+				<!-- Featured Posts -->
+				<div class="row g-4">
+					<!-- Post 1: History -->
+					<div class="col-md-6 col-lg-4">
+						<div class="blog-card">
+							<div class="blog-card-img">
+								<img src="images/blog-1.jpeg" alt="Indian Cacao History" class="img-fluid">
+								<div class="blog-card-badge">Heritage</div>
+							</div>
+							<div class="blog-card-body">
+								<h3 class="blog-card-title">Kerala’s Hidden Cacao Legacy</h3>
+								<p class="blog-card-excerpt">
+									How 19th-century British plantations shaped India’s chocolate DNA, and why small farmers are reviving it today.
+								</p>
+								<div class="blog-card-meta">
+									<span class="meta-date"><i class="bi bi-calendar3 me-1"></i> May 15, 2023</span>
+									<span class="meta-readtime"><i class="bi bi-clock me-1"></i> 5 min read</span>
+								</div>
+								<a href="#" class="blog-card-link">
+								Read More <i class="bi bi-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Post 2: Factory BTS -->
+					<div class="col-md-6 col-lg-4">
+						<div class="blog-card">
+							<div class="blog-card-img">
+								<img src="images/blog-2.jpeg" alt="Factory Behind the Scenes" class="img-fluid">
+								<div class="blog-card-badge">Process</div>
+							</div>
+							<div class="blog-card-body">
+								<h3 class="blog-card-title">A Day in Our Solar-Powered Kitchen</h3>
+								<p class="blog-card-excerpt">
+									Peek inside our Oakland factory where Ayurvedic spices meet California solar energy.
+								</p>
+								<div class="blog-card-meta">
+									<span class="meta-date"><i class="bi bi-calendar3 me-1"></i> June 2, 2023</span>
+									<span class="meta-readtime"><i class="bi bi-clock me-1"></i> 4 min read</span>
+								</div>
+								<a href="#" class="blog-card-link">
+								Read More <i class="bi bi-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Post 3: Pairing Guide -->
+					<div class="col-md-6 col-lg-4">
+						<div class="blog-card">
+							<div class="blog-card-img">
+								<img src="images/blog-3.jpeg" alt="Chocolate Pairing Guide" class="img-fluid">
+								<div class="blog-card-badge">Guide</div>
+							</div>
+							<div class="blog-card-body">
+								<h3 class="blog-card-title">Cardamom Crunch × Masala Chai: A Love Story</h3>
+								<p class="blog-card-excerpt">
+									Why Kashmiri saffron chocolate pairs perfectly with Napa Valley Cabernet.
+								</p>
+								<div class="blog-card-meta">
+									<span class="meta-date"><i class="bi bi-calendar3 me-1"></i> June 18, 2023</span>
+									<span class="meta-readtime"><i class="bi bi-clock me-1"></i> 7 min read</span>
+								</div>
+								<a href="#" class="blog-card-link">
+								Read More <i class="bi bi-arrow-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Newsletter Section -->
+<section class="newsletter-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Visual Column -->
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="newsletter-visual">
+          <img src="images/newsletter-bg.jpeg" alt="Chocolate and spices flat lay" class="img-fluid rounded-3">
+          <div class="newsletter-badge">
+            <i class="bi bi-envelope-heart"></i> Sweet Updates
+          </div>
+        </div>
+      </div>
+
+      <!-- Form Column -->
+      <div class="col-lg-6">
+        <div class="newsletter-content">
+          <span class="section-subtitle">Join Our Spice Circle</span>
+          <h2 class="section-title">
+            <span class="text-spice">10% Off</span> + 
+            <span class="text-sunshine">Secret Recipes</span>
+          </h2>
+          <p class="section-tagline">
+            Subscribe for exclusive Indian-Californian chocolate pairings, early access to seasonal specials, and a 
+            <strong>10% discount</strong> on your first order.
+          </p>
+
+          <form class="newsletter-form">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Email Address" required>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="recipe-optin">
+                  <label class="form-check-label" for="recipe-optin">
+                    Send me monthly fusion recipes (like Saffron Chocolate Chai)
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary w-100">
+                  <i class="bi bi-envelope-arrow-down me-2"></i> Subscribe & Claim 10% Off
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div class="newsletter-note mt-3">
+            <small>We respect your privacy. Unsubscribe anytime.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section class="contact-section py-5" id="contact">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <span class="section-subtitle">Get in Touch</span>
+        <h2 class="section-title">
+          <span class="text-spice">Spice Up</span> 
+          <span class="text-sunshine">Your Inbox</span>
+        </h2>
+        <p class="section-tagline">
+          We love hearing from chocolate enthusiasts, spice explorers, and curious tastebuds alike!
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-center">
+      <!-- Contact Info Card -->
+      <div class="col-lg-5">
+        <div class="contact-info-card">
+          <div class="contact-info-header">
+            <img src="images/contact-image.jpeg" alt="Cocoa Beans" class="contact-info-img">
+          </div>
+          <div class="contact-info-body">
+            <h3 class="contact-info-title">
+              <i class="bi bi-shop me-2"></i> Visit Us
+            </h3>
+            <address class="contact-address">
+              <strong>Madhu & Cocoa Factory</strong><br>
+              123 Spice Lane, Oakland<br>
+              California 94607, USA
+            </address>
+
+            <h3 class="contact-info-title mt-4">
+              <i class="bi bi-clock me-2"></i> Hours
+            </h3>
+            <ul class="contact-hours">
+              <li><span>Mon-Fri:</span> 10AM - 6PM</li>
+              <li><span>Sat:</span> 9AM - 4PM</li>
+              <li><span>Sun:</span> Closed</li>
+            </ul>
+
+            <h3 class="contact-info-title mt-4">
+              <i class="bi bi-chat-dots me-2"></i> Connect
+            </h3>
+            <div class="contact-social">
+              <a href="#" class="social-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="bi bi-pinterest"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="contact-form-card">
+          <h3 class="form-title">Send Us a Message</h3>
+          <form>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="name" placeholder="Your Name">
+                  <label for="name">Your Name</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="email" placeholder="Email Address">
+                  <label for="email">Email Address</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-floating">
+                  <textarea class="form-control" id="message" placeholder="Your Message" style="height: 150px"></textarea>
+                  <label for="message">Your Message</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary w-100">
+                  <i class="bi bi-send-fill me-2"></i> Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer Section -->
+<footer class="footer-section py-5">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Brand Column -->
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="footer-brand">
+          <div class="d-flex align-items-center mb-3">
+            <img src="images/logo.jpeg" alt="Madhu & Cocoa Logo" class="footer-logo me-2">
+            <span class="brand-name">Madhu & Cocoa</span>
+          </div>
+          <p class="footer-tagline">
+            Where Indian spice traditions meet California sunshine in every chocolate creation.
+          </p>
+          <div class="footer-social mt-4">
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Pinterest">
+              <i class="bi bi-pinterest"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-4 col-md-6">
+        <h3 class="footer-heading">Quick Links</h3>
+        <div class="footer-links">
+          <div class="row">
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Chocolate</a></li>
+                <li><a href="#">Shop</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-lg-4 col-md-6">
+        <h3 class="footer-heading">Stay Sweet</h3>
+        <p class="footer-newsletter-text">
+          Join our newsletter for 10% off your first order and exclusive recipes.
+        </p>
+        <form class="footer-newsletter">
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email">
+            <button class="btn btn-primary" type="submit">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="copyright text-center">
+          <p class="mb-0">
+            &copy; <span id="current-year"></span> Madhu & Cocoa. All rights reserved.<br class="d-sm-none">
+            Handcrafted in California with global love.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+		<!-- Bootstrap JS Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Custom JS -->
+		<script src="script.js"></script>
+	</body>
+</html>
