@@ -39,18 +39,6 @@ git clone https://github.com/yourusername/madhu-and-cocoa-landing.git
 cd madhu-and-cocoa-landing
 ```
 
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
 ---
 
 ## 🖌️ Color Palette
